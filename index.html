@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/icon.jpg">
+  <!-- css files link -->
+
+  <!-- font awesome file -->
+  <link rel="stylesheet" href="style/all.min.csss">
+  <!-- animate file link -->
+  <link rel="stylesheet" href="style/animate.css">
+  <!-- style file link -->
+  <link rel="stylesheet" href="style/style.css">
+  <!-- responsive file link -->
+  <link rel="stylesheet" href="style/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <title>ZCCA | Portfolio Web</title>
+
+</head>
+
+<body>
+
+  <!-- Start header section -->
+  <section class="header" id="header">
+    <nav class="navbar">
+      <ul class="menu">
+        <div class="logo">
+          <a href="#home">
+            <h1><span>M</span>atti <span>U</span>llah</h1>
+          </a>
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="bar">
+          <a href="#" id="bar" onclick="togle()"><i class="fas fa-bars"></i></a>
+        </div>
+      </ul>
+
+
+    </nav>
+
+  </section>
+  <!-- End header section -->
+
+  <!-- Start home section -->
+  <section class="sidebar" id="sidebar">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+  </section>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h2>Hello, My Name is <span></span></h2>
+      <h1>Matti Ullah<span></span></h1>
+      <h2>And I'm a <span id="typing" style="color:crimson;"></span> <span></span></h2>
+      <a href="#projects" type="button" class="btn">Portfolio</a>
+    </div>
+    <div class="wave"></div>
+    <div class="img">
+      <img src="img/shape.png" alt="" class="shape">
+      <img src="img/newmati.png" alt="" class="me">
+    </div>
+
+    <div class="icons">
+      <i class="fab fa-facebook f brand"></i>
+      <i class="fab fa-instagram brand"></i>
+      <i class="fab fa-whatsapp brand"></i>
+    </div>
+  </section>
+
+  <!-- End home section -->
+
+  <!-- Start Services section -->
+  <section class="services" id="services">
+    <div class="services-info">
+      <h1 class="title">My Services</h1>
+      <p class="sub-title">- What i Provide -</p>
+    </div>
+    <div class="services-row">
+      <div class="services-box" data-tilt>
+        <img src="img/b2.png" alt="">
+        <h2>Web Developer</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate magni maiores, repellat quam minima nemo
+          modi laboriosam esse facere deleniti quidem. Veritatis exercitationem quod consectetur totam quae dicta
+          consequuntur </p>
+      </div>
+      <div class="services-box" data-tilt>
+        <img src="img/b2.png" alt="">
+        <h2>Web Animation</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate magni maiores, repellat quam minima nemo
+          modi laboriosam esse facere deleniti quidem. Veritatis exercitationem quod consectetur totam quae dicta
+          consequuntur </p>
+      </div>
+      <div class="services-box" data-tilt>
+        <img src="img/b2.png" alt="">
+        <h2>Software Developer</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate magni maiores, repellat quam minima nemo
+          modi laboriosam esse facere deleniti quidem. Veritatis exercitationem quod consectetur totam quae dicta
+          consequuntur </p>
+      </div>
+    </div>
+  </section>
+  <!-- End Services section -->
+
+  <!-- Start Skill section -->
+  <section class="skills" id="skills">
+    <div class="skills-info">
+      <h1 class="title">My Skills</h1>
+      <p class="sub-title">- What i Know -</p>
+    </div>
+    <div class="skills-row">
+      <div class="skills-left">
+        <p>Who Am I?
+          I am a creative and detail-oriented web developer, driven by the artistry of coding. With a solid foundation
+          in HTML, CSS, and Vanilla JavaScript, I've expanded my skills to include cutting-edge technologies such as
+          React.js and Next.js. My journey also involves mastering the art of Tailwind CSS for efficient and
+          maintainable styling.!
+          Crafting Engaging Experiences:
+          What sets me apart is my commitment to creating not just websites, but memorable user experiences. I
+          specialize in bringing interfaces to life with captivating web animations, turning static pages into dynamic,
+          interactive journeys.</p>
+        <a href="#" class="btn">Read More!</a>
+      </div>
+      <div class="skills-right">
+        <div class="progress">
+          <p>
+            <span>HTML</span>
+            <progress value="90" max="100"> </progress>
+            <span>90%</span>
+          </p>
+          <p>
+            <span>CSS</span>
+            <progress value="80" max="100"> </progress>
+            <span>80%</span>
+          </p>
+          <p>
+            <span>Tailwind</span>
+            <progress value="75" max="100"> </progress>
+            <span>75%</span>
+          </p>
+          <p>
+            <span>React</span>
+            <progress value="70" max="100"> </progress>
+            <span>70%</span>
+          </p>
+          <p>
+            <span>Vanilla</span>
+            <progress value="85" max="100"> </progress>
+            <span>85%</span>
+          </p>
+          <p>
+            <span>NextJs</span>
+            <progress value="75" max="100"> </progress>
+            <span>75%</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Skills section -->
+
+  <!-- Start About section -->
+  <section class="about" id="about">
+    <div class="about-info">
+      <h1 class="title">About Me</h1>
+      <p class="sub-title">- Who i am -</p>
+    </div>
+    <div class="about-row">
+      <div class="about-left">
+        <div class="about-img">
+          <img src="img/matti.jpg" alt="img">
+        </div>
+      </div>
+
+      <div class="about-right">
+        <h2>I am <span id="type" style="color:crimson;"></span></h2>
+        <p>With a strong foundation in web development, I bring expertise in HTML, CSS, and Vanilla JavaScript. My
+          journey in the world of web development has led me to embrace modern technologies, including React.js and
+          Next.js. These frameworks empower me to create scalable and efficient web applications, while my proficiency
+          in Tailwind CSS and bootstrap ensures a streamlined and maintainable styling process.!</p>
+        <a href="#" class="btn">Read More!</a>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- End About section -->
+
+  <!-- Start Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="testimonials-info">
+      <h1 class="title">My Testimonials</h1>
+      <p class="sub-title">- What You say -</p>
+    </div>
+    <div class="test">
+      <div class="pp p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptas possimus labore dolorem,
+        fuga iure culpa cumque nemo dignissimos non.<br><br><span>Matti Ullah</span></div>
+
+      <div class="pp p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam soluta fugiat architecto? Qui
+        mollitia possimus, alias perferendis accusamus unde eius?<br><br><span>Zain ul abideen</span></div>
+
+      <div class="pp p3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate neque nam dignissimos
+        autem, officiis dolor dolore corporis culpa vel fugit.<br><br><span>Muahmmad Asad</span></div>
+    </div>
+
+  </section>
+  <!-- End Testimonials Section -->
+
+  <!-- Start Contact section -->
+  <section class="contact" id="contact">
+    <div class="contact-info">
+      <h1 class="title">Contact Me</h1>
+      <p class="sub-title">- Where i meet -</p>
+    </div>
+    <div class="contact-row">
+      <div class="contact-left">
+        <div class="text">Message Me</div>
+        <form action="#" class="form-box">
+          <input type="text" placeholder="Name" required class="form-field">
+          <input type="email" placeholder="Email" required class="form-field">
+          <input type="text" placeholder="Subject" required class="form-field">
+          <textarea cols="30" rows="10" placeholder=" Your Message Here .." required class="form-field"></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-right">
+        <div class="contact-item">
+          <div class="icon"><img src="img/contact-2.png"></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+92 3065179226</h2>
+
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="img/contact-3.png"></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>Matti.thaheem251@gmail.com</h2>
+
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="img/contact-1.png"></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Wapda Town Lahore</h2>
+          </div>
+        </div>
+
+      </div>
+  </section>
+  <!-- End Conatct section -->
+
+  <!-- End Footer section -->
+  <section id="footer" class="footer">
+    <h2>Developed By :ZCCA | Matti ullah</h2>
+  </section>
+  <!-- End Footer section -->
+
+  <!-- start Top button  -->
+  <a href="#" id="top"><i class="fa fa-angle-up"></i></a>
+  <!-- End Top button  -->
+
+  <!-- Js file -->
+  <script src="js/jquery.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/jquery.ripples-min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/tilt.jquery.min.js"></script>
+  <script>
+    // Ripple Effect Apply
+    $('.home').ripples({
+      resolution: 512,
+      dropRadius: 20,
+      perturbance: 0.01,
+    });
+    // Typing Effect1 apply
+    let type = new Typed('#typing', {
+      strings: ["Front End Developer", "Tailwind", "ReactJs Developer", "NextJs Devolper", "Animation Developer"],
+      typeSpeed: 100,
+      backspeed: 100,
+      loop: true,
+    });
+    // Typing Effect2 apply
+    let type1 = new Typed('#type', {
+      strings: ["Front End Developer", "Tailwind", "ReactJs Developer", "NextJs Devolper", "Animation Developer"],
+      typeSpeed: 100,
+      backspeed: 100,
+      loop: true,
+    });
+
+
+
+  </script>
+
+  <script>
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 400) {
+        $('#top').show();
+        $('.navbar').addClass("sticky");
+      } else {
+        $('#top').hide();
+        $('.navbar').removeClass("sticky");
+      }
+
+
+
+    });
+
+    $('#top').click(function () {
+      $('html').animate({ scrollTop: 0 }, 5000);
+      $('html').css("scrollBehavior", "auto");
+    });
+    $('#header .navbar .menu li a').click(function () {
+      // applying again smooth scroll on menu items click
+      $('html').css("scrollBehavior", "smooth");
+    });
+    $('#header .navbar .menu li a').click(function () {
+      $('#header .navbar').addClass("active");
+
+    });
+
+
+
+
+
+
+  </script>
+  <script>
+    //   var sidebar = document.getElementById('sidebar');
+    //   // var bar = document.getElementById('#bar');
+
+    //   sidebar.style.width="0px";
+    //   function togle()
+    //   {
+    //     if (sidebar.style.width == "0px"){
+    //       sidebar.style.width = "250px";
+    //     }else{
+    //       sidebar.style.width = "0px";
+    //   }
+    // }
+    $('#bar').click(function () {
+      $('#sidebar').fadeToggle(2000);
+
+
+    })
+  </script>
+
+</body>
+
+</html>

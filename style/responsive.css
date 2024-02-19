@@ -1,0 +1,80 @@
+@media (max-width:770px){
+  .header .navbar .menu li a{
+    display: none;
+  }
+  .header .navbar .menu .bar {
+    display:block;
+    font-size: 1.8em;
+  }
+  .header .navbar .menu .bar a{
+    color:#fff;
+  }
+  .header .navbar .menu .bar a:hover{
+    color:crimson;
+  }
+
+  .home .home-content{
+    margin-left: 25px;
+    margin-top: -150px;
+  }
+  .home .home-content h2{
+   font-size: 1.5em;
+  }
+  .home .home-content h1{
+    font-size: 2.0em;
+    font-weight: 500;
+  }
+  .home .img{
+   display:none;
+  }
+  .services,.skills,.about,.contact{
+    padding:25px 50px;
+  }
+  .services .services-row .services-box,
+  .skills .skills-row .skills-left,
+  .skills .skills-row .skills-right,
+  .about .about-row .about-left,
+  .about .about-row .about-right,
+  .contact .contact-row .contact-left,
+  .contact .contact-row .contact-right
+  {
+    flex-basis: 100%;
+    margin-top:50px;
+  }
+  .skills .skills-row .skills-row.skills-row-right .progress p{
+    padding:0 40px;
+  }
+  .skills .skills-row .skills-right .progress{
+    width:100%;
+  }
+  .contact .contact-row .contact-left .text::after,
+  .contact .contact-row .contact-left .text::before{
+    display: none;
+  }
+  #sidebar{
+    position: fixed;
+    top:0;right:0;
+    width:250px;height:100vh;
+    background-color: rgba(0,0,0,0.2);
+    /* backdrop-filter: blur(10px); */
+    box-shadow: inset 10px 10px 10px grey;
+    padding:100px 0;
+    list-style: none;
+    z-index:2;
+    
+    
+  }
+  #sidebar a{
+    text-decoration: none;
+    color:#fff;
+    color:crimson;
+    font-weight: 700;
+    font-size:20px;margin:10px 30px;
+    padding:20px;
+    display:block;
+  }
+  #sidebar a:hover{
+    background-color: rgba(255,255,255,0.4);
+    transition: .4s;
+  }
+}
